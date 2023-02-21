@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.navbar > * {
+    margin-left: 2rem;
+    color: #9c6644;
+    text-decoration: none;
+    transition: 200ms ease-in-out;
+    padding: 6px 16px;
+    background-color:rgb(46, 88, 88);
+    border-radius: 12px;
+}
+.navbar > *:hover{
+    color: #e76f51;
+} 
